@@ -32,7 +32,7 @@ Lets take a look inside the src folder
    ```
         PORT=3000
    ```
- - go inside the src folder and execute the following command:
+ - go inside the src folder and execute the following command after installing mysql2 ,sequelize ,sequelize-cli:
 
    ```
          npx sequelize init
