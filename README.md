@@ -48,3 +48,22 @@ Lets take a look inside the src folder
     ```
         npm run dev
     ```
+`- From here we are going to prepare the 
+```
+  Auth microservice
+
+```
+`-` After doinh the db setup for generating the migration and model run 
+```
+  npx sequelize model:generate --name User --attributes email:String,passw
+ord:String
+
+```
+
+`-`Make changes to  the constraints(enail and password) at both db and javascript level.
+
+`-`To sync run
+```
+    npx sequelize db:migrate
+
+```
