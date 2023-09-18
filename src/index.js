@@ -10,6 +10,8 @@ const app = express();
 // const {User} = require('./models/index');
 // const bcrypt = require('bcrypt');
 
+// const UserRepository = require('./repository/user-repository');
+
 const prepareAndStartServer = () => {
 
 
@@ -27,6 +29,10 @@ const prepareAndStartServer = () => {
         // const incomingpassword = '24680890';
         // const user = await User.findByPk(6);
         // const response = bcrypt.compareSync(incomingpassword, user.password);
+        // console.log(response);
+
+        // const repo = new UserRepository();
+        // const response = await repo.getById(1);
         // console.log(response);
     });
 }   
