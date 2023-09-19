@@ -7,8 +7,7 @@ const bodyParser = require('body-parser');
 const apiRoutes = require('./routes/index')
 const app = express();
 
-// const {User} = require('./models/index');
-// const bcrypt = require('bcrypt');
+//const UserService = require('./services/user-service');
 
 // const UserRepository = require('./repository/user-repository');
 
@@ -34,6 +33,13 @@ const prepareAndStartServer = () => {
         // const repo = new UserRepository();
         // const response = await repo.getById(1);
         // console.log(response);
+        //creating the token
+        //
+        // const newToken = service.createToken({email: 'noor@gmail.com', id: 1});
+        // console.log("new token is", newToken)
+
+        //verifying token
+            
     });
 }   
 
